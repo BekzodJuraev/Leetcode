@@ -10,6 +10,7 @@ class Solution(object):
     def addTwoNumbers(self, l1, l2):
         reverse = []
         sum = self.multiply(l1) + self.multiply(l2)
+        print(sum)
         x = 0
         while (sum > 0):
             x = sum % 10
